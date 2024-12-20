@@ -7,7 +7,7 @@ constexpr char X360 = 0x0E;
 int main(int argc, char *argv[])
 {
     if (argc != 2) {
-        std::cout << "Usage: " << "mcla_save_converter <save file path>" << std::endl;
+        std::cout << "Usage: " << "mcla_save_converter <PS3 or X360 .sav file path>" << std::endl;
         return 1;
     }
 
